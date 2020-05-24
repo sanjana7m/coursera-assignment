@@ -1,4 +1,3 @@
-<!DOCTYPE html>
 <html>
 <head>
 <meta charset="utf-8">
@@ -19,7 +18,7 @@ padding:5px;
 border:2px solid black;
 margin:5px;
 width:450px;
-height:250px;
+height:270px;
 float:left;
 margin-right:10px;
 }
