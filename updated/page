@@ -1,0 +1,132 @@
+<!doctype html>
+<html>
+<head>
+<link rel="stylesheet" href="module2styles.css">
+<meta charset="utf-8">
+<meta name='viewport' content='width=device-width, initial-scale=1'>
+<title>Module 2 solution</title>
+</head>
+<style>
+* {
+  box-sizing: border-box;
+
+}
+body{
+
+	background-color:lightgrey;}
+h1 {
+	font-size: 50px;
+	text-align: center;
+	color:#0f52ba ;
+
+}
+
+p {
+	padding: 5px;
+	color:lightpink;
+	font-size: 25px;
+	position: center;
+                        text-style:italic;
+                        text-align:center;
+}
+
+.section { 
+	background-color:#002366;
+   	border: 2px solid black;
+   	margin-top: 20px; 
+   	margin-right: 20px; 
+   	padding: 5px;
+   	position: relative;
+                        width:450px;
+                        height:300px;
+text-align:right;
+ }
+
+span {
+	font-size: 35px;
+	width: 200px;
+        background-color:black;
+	border: 2px solid white;
+	font-weight: bold;
+                        text-align:right;
+        padding:2px;
+	
+}
+#nr1 {
+	
+	color:white;
+}
+#nr2 {
+	
+	color:white;
+}
+#nr3 {
+	
+	color:white;
+}
+}
+
+.row {
+	width: 100%;
+}
+
+
+
+@media (min-width: 992px) {
+ 
+  .col-lg-4 {
+    width: 33.33%;
+    float: left;
+	}
+}
+
+
+@media (min-width: 768px) and (max-width: 991px) {
+ 
+  .col-md-6 {
+    width: 50%;
+    float: left;
+  }
+  .col-md-12 {
+    width: 100%;
+    float: left;
+  }
+}
+
+@media (max-width: 767px)  {
+  
+  .col-sx-12 {
+  	float: left;
+    width: 100%;
+  }
+}
+</style>
+
+<body>
+<h1>Quotes</h1>
+<div class='row'>
+	<div class='col-lg-4 col-md-6 sx-12'>
+		<div class='section'>
+			<span id='nr1'>Nelson Mandela</span>
+				<p>"It is better to lead from behind and to put others in front,especially when you celebrate victory 
+when nice thing occur.You take the front line when there 
+is danger.Then people will appreciate your relatioship."</p>
+		</div>
+	</div>
+	<div class='col-lg-4 col-md-6 sx-12'>
+		<div class='section'>
+			<span id='nr2'>Albert Einstein</span>
+				<p>"Everybody is a genius.But if you judge a fish by its ability to climb a tree,it will
+live its whole life believing that it is stupid."</p>
+		</div>
+	</div>
+	<div class='col-lg-4 col-md-12 sx-12'>
+		<div class='section'>
+			<span id='nr3'>Mahatma Gandhi</span>
+				<p>"You may never know what results come of your actions,but if you do nothing,there will be a no 
+results."</p>
+		</div>
+	</div>
+</div>
+</body>
+</html>
